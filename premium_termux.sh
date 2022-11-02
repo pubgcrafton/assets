@@ -21,25 +21,25 @@ cd Premium &&
 pip install -U pip &&
 pip install -r requirements.txt &&
 echo '' > ~/../usr/etc/motd &&
-echo 'clear && . <(wget -qO- https://raw.githubusercontent.com/pubgcrafton/assets/main/premium_banner.sh) && cd ~/Premium && python3 -m premium --port 2007' > ~/.bash_profile"
+echo 'clear && . <(wget -qO- https://raw.githubusercontent.com/pubgcrafton/assets/main/premium_banner.sh) && cd ~/Premium && python3 -m premium --port 1242' > ~/.bash_profile"
 
-echo -e "\033[0;96mShaxsiy Userbot boshlanmoqda...\033[0m"
+echo -e "\033[0;96mPremium Userbot boshlanmoqda...\033[0m"
 
-run_in_bg "python3 -m premium --port 2007"
+run_in_bg "python3 -m premium --port 1242"
 sleep 10
 
 echo -ne "\\033[2J\033[3;1f"
 print_center "
-\033[0;35m _   _        \033[0m
-\033[0;35m| | | (_) \033[0m
-\033[0;35m| |_| | |\033[0m
-\033[0;35m|  _  | |\033[0m
-\033[0;35m|_| |_|_|_|\033[0m
+\033[0;35m                      _   _        \033[0m
+\033[0;35m                     | | | (_) \033[0m
+\033[0;35m                     | |_| | |\033[0m
+\033[0;35m                     |  _  | |\033[0m
+\033[0;35m                     |_| |_|_|\033[0m
 
 \033[1;32mPremium Userbot o‘rnatildi!\033[0m
-\033[1;32mVeb manzil: http://localhost:2007\033[0m
+\033[1;32mVeb manzil: http://localhost:1242\033[0m
 "
 
-eval "termux-open-url http://localhost:2007"
+eval "termux-open-url http://localhost:1242"
 
 
