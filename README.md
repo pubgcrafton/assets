@@ -1,1 +1,1 @@
-Stuff, needed by github.com/pubgcrafton/Shaxsiy, github.com/hikariatama/ftg and other repos
+Stuff, needed by github.com/pubgcrafton/Premium, github.com/hikariatama/ftg and other repos
